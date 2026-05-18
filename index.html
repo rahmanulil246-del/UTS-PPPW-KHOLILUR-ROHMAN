@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jelajah Nusantara - Agen Perjalanan Liburan Anda</title>
+</head>
+<body>
+
+    <header>
+        <h1>Jelajah Nusantara</h1>
+        <p><i>Menemukan Keindahan di Setiap Sudut Indonesia</i></p>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#paket">Paket Wisata</a></li>
+                <li><a href="#galeri">Galeri Destinasi</a></li>
+                <li><a href="#pesan">Pesan Tiket</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di Jelajah Nusantara!</h2>
+            <p>Kami menyediakan layanan perencanaan perjalanan terbaik untuk membantu Anda mengeksplorasi keindahan alam, budaya, dan sejarah Indonesia. Mulai dari keindahan pantai di Bali hingga pesona pegunungan di Bromo, kami siap menemani petualangan Anda.</p>
+        </section>
+
+        <br>
+
+        <section id="galeri">
+            <h2>Destinasi Populer</h2>
+            <p>Klik nama destinasi untuk melihat informasi lebih lanjut melalui Google Maps:</p>
+            
+            <h3>1. Raja Ampat, Papua</h3>
+            <img src="https://picsum.photos/id/1015/400/250" alt="Pemandangan Alam Raja Ampat" width="400" height="250">
+            <p>Surga bawah laut bagi para pecinta diving dan keindahan pulau karang. <a href="https://maps.google.com" target="_blank">Lihat Lokasi</a></p>
+            
+            <h3>2. Gunung Bromo, Jawa Timur</h3>
+            <img src="https://picsum.photos/id/1016/400/250" alt="Matahari Terbit di Gunung Bromo" width="400" height="250">
+            <p>Nikmati pemandangan matahari terbit yang magis di atas hamparan lautan pasir. <a href="https://maps.google.com" target="_blank">Lihat Lokasi</a></p>
+        </section>
+
+        <br>
+
+        <section id="paket">
+            <h2>Daftar Harga Paket Wisata 2026</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr bgcolor="#dddddd">
+                        <th>Nama Paket</th>
+                        <th>Durasi</th>
+                        <th>Fasilitas</th>
+                        <th>Harga per Orang</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eksplorasi Bali Sasak</td>
+                        <td>3 Hari 2 Malam</td>
+                        <td>Hotel berbintang, Transportasi, Tiket Masuk, Tour Guide</td>
+                        <td>Rp 2.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>Petualangan Bromo</td>
+                        <td>2 Hari 1 Malam</td>
+                        <td>Jeep 4x4, Penginapan, Tiket Masuk, Sarapan</td>
+                        <td>Rp 1.200.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pesona Raja Ampat</td>
+                        <td>4 Hari 3 Malam</td>
+                        <td>Resort, Speedboat, Alat Snorkeling, Makan 3x Sehari</td>
+                        <td>Rp 7.500.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section id="pesan">
+            <h2>Formulir Pemesanan Tiket</h2>
+            <form action="#" method="get">
+                <p>Silakan isi formulir di bawah ini untuk memesan paket liburan Anda:</p>
+                
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required><br><br>
+                
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required><br><br>
+                
+                <label for="pilihan-paket">Pilih Paket Wisata:</label><br>
+                <select id="pilihan-paket" name="paket">
+                    <option value="bali">Eksplorasi Bali Sasak</option>
+                    <option value="bromo">Petualangan Bromo</option>
+                    <option value="rajaampat">Pesona Raja Ampat</option>
+                </select><br><br>
+                
+                <label for="jumlah">Jumlah Peserta:</label><br>
+                <input type="number" id="jumlah" name="jumlah" min="1" max="50" required><br><br>
+                
+                <label for="catatan">Catatan Tambahan:</label><br>
+                <textarea id="catatan" name="catatan" rows="4" cols="40" placeholder="Contoh: Request menu vegetarian, sewa kamera, dll."></textarea><br><br>
+                
+                <button type="submit">Kirim Pemesanan</button>
+                <button type="reset">Sematkan Ulang</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Jelajah Nusantara Tour & Travel. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
